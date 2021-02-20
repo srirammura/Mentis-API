@@ -49,7 +49,7 @@ gunicorn server:app -k gevent --worker-connections 1000
 ```
 ### Successful Performance Testing with Jmeter Screenshots
 
-![alt text](https://github.com/[srirammura]/[Mentis-API]/images/main/Screenshot from 2021-02-20 18-32-32.png?raw=true)
+![alt text](https://github.com/srirammura/Mentis-API/blob/main/images/Screenshot%20from%202021-02-20%2018-32-32.png)
 
 
 
