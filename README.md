@@ -23,7 +23,6 @@ Dear team,
 I ordered Excel Suite from ABC ltd on 10-02-2021. I am yet to receive the CD. Kindly do the needful.
 Rajwat Singh,
 Mumbai
-
 ```
 
 ### Expected Output
@@ -33,7 +32,6 @@ Mumbai
 |    1.     | Excel Suite  | PRODUCT  |
 |    2.     | Rajwat Singh | PERSON   |
 |    3.     | Mumbai       | CITY     |
-
 ```
 ### Solution and Explanation :
 
@@ -45,7 +43,6 @@ To deal with concurrent and parallel requests Async workers of gunicorn gevent s
 
 ```
 gunicorn server:app -k gevent --worker-connections 1000
-
 ```
 ### Successful Performance Testing with Jmeter Screenshots
 
