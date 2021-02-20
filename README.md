@@ -35,13 +35,21 @@ Mumbai
 |    3.     | Mumbai       | CITY     |
 
 ```
-### Solution and Explanation
+### Solution and Explanation :
 
 This code base has been deployed in AWS ( Amazon Web Services )  which can deal concurrent and parallel requests
 
 To check out the working model follow the link : http://3.19.255.77:8080
 
+To deal with concurrent and parallel requests Async workers of gunicorn gevent servers has been used with the flask . The command used to start the gunicorn flask api was :
 
+```
+gunicorn server:app -k gevent --worker-connections 1000
+
+```
+### Successful Performance Testing with Jmeter Screenshots
+
+![alt text](https://github.com/[srirammura]/[Mentis-API]/images/main/Screenshot from 2021-02-20 18-32-32.png?raw=true)
 
 
 
