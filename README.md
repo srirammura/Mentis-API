@@ -17,28 +17,17 @@ You are the ‘Natural Language processing’ expert and Python Engineer in ABC 
 The API should be able to handle multiple concurrent requests
 The API should be able to parallel process requests
 
-```
-   
-
-
-#### Input:
-
-
+### Example Input
 ```
 Dear team,
 I ordered Excel Suite from ABC ltd on 10-02-2021. I am yet to receive the CD. Kindly do the needful.
 Rajwat Singh,
 Mumbai
 
-
 ```
 
-
-
-#### Expected Output 
-
+### Expected Output
 ```
-
 | Serial No |    Text      | Category |
 ---------------------------------------
 |    1.     | Excel Suite  | PRODUCT  |
