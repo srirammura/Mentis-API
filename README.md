@@ -35,7 +35,11 @@ Mumbai
 |    3.     | Mumbai       | CITY     |
 
 ```
+### Solution and Explanation
 
+This code base has been deployed in AWS ( Amazon Web Services )  which can deal concurrent and parallel requests
+
+To check out the working model follow the link : http://3.19.255.77:8080
 
 
 
